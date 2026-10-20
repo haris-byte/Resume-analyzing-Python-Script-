@@ -1,12 +1,14 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Python / Backend
+Backend/.venv/
+Backend/__pycache__/
+Backend/.env
+*.pyc
 
-# Virtual environments
-.venv
-# private var
-.env
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS / Editor Files
+.DS_Store
+.vscode/
